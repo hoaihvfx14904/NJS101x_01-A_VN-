@@ -1,0 +1,31 @@
+<%- include('./head.ejs') %>
+    <link rel="stylesheet" href="../css/mh_2.css">
+    </head>
+
+    <body>
+        <%- include('./navigation.ejs') %>
+            <main>
+                <div class="form-css">
+                <form action="/covid" method="POST">
+
+                    <label for="dk_thannhiet">
+                        <h3>Đăng Ký Thông Tin Thân Nhiệt</h3>
+                    </label>
+                    <p>Ngày : <input id="dk_thannhiet" name="dk_thannhiet" type="date"></p>
+                    <p>Giờ: <input id="dk_thannhiet_gio" name="dk_thannhiet_gio" type="time"></p>
+                    <label for="dk_vaccine">
+                        <h3>Đăng Ký Thông Tin Vaccine</h3>
+                    </label>
+                    <p>Mũi 1 : <input id="dk_vaccine" name="dk_vaccine1" type="date"></p>
+                    <p>Loại Vaccine: <input id="dk_vaccine_kind" name="dk_vaccine_kind1" type="text"></p>
+                    <p>Mũi 2 : <input id="dk_vaccine" name="dk_vaccine2" type="date"></p>
+                    <p>Loại Vaccine: <input id="dk_vaccine_kind" name="dk_vaccine_kind2" type="text"></p>
+                    <label for="covid_history""><h3>Thông Tin Covid</h3></label>
+                    <p>Ngày Dương Tính: <input id=" covid_history_start" name="covid_historyPositive" type="date">
+                        </p>
+                        <p>Ngày Âm Tính: <input id="covid_history_end" name="covid_historyNegative" type="date"></p>
+                        <button class="btn mid" type="submit" class="btn_covid" id="btn_covid">Đăng Ký</button>
+                </form>
+            </div>
+            </main>
+            <%- include('./end.ejs') %>

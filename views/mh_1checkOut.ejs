@@ -1,0 +1,31 @@
+<%- include('./head.ejs') %>
+    <link rel="stylesheet" href="../css/mh_1.css">
+    </head>
+
+    <body>
+        <%- include('./navigation.ejs') %>
+            <main>
+                <div class="container">
+                    <div class="diem__danh">
+                        <a class="btn" id="diemDanh" href="/checkIn">Điểm Danh</a>
+                    </div>
+                    <div class="ket__thuc">
+                        <a class="btn" id="ketThuc" href="/checkOut">Kết Thúc Làm</a>
+                    </div>
+                    <div class="nghi_phep">
+                        <a class="btn" id="nghiPhep" href="/absent">Đăng Ký Phép</a>
+                    </div>
+                </div>
+                <div class="form-css">
+                <form class="form__checkin" action="/checkOut" method="POST">
+                    <div class="ket__thuc">
+                        <div class="ket__thucOn">
+                            <h3>Bạn chắc chắn muốn kết thúc phiên làm này ?</h3>
+                            <p>Bấm vào nút submit ở dưới đễ gữi việc kết thúc này !</p>
+                        </div>
+                        <button type="subbmit" class="btn mid" id="submitCheckOut">Checkout</button>
+                    </div>
+                </form>
+            </div>
+            </main>
+            <%- include('./end.ejs') %>

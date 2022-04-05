@@ -1,0 +1,55 @@
+.container {
+    display:flex;
+    flex-direction:grid;
+    justify-content:center;
+}
+.status {
+    display:flex;
+   font-size:30px;
+}
+.status span {
+    color:red;
+    font-size:100px;
+}
+#location {
+    margin-bottom:20px;
+}
+/* display  */
+.diem__danhOn p,
+.diem__danhOn button{
+    display:grid;
+}
+.ket__thucOn li {
+    list-style-type:none;
+}
+.ket__thucOn p, 
+.ket__thucOn ul {
+    display:grid;
+}
+.ket__thuc {
+    padding-left:10px;
+    padding-right:10px;
+}
+.nghi_phepOn label,
+.nghi_phepOn input {
+    display:grid;
+}
+.form__checkin { 
+    display:grid;
+    justify-content:center;
+}
+.form-css {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    width: 25.2rem;
+    border: 1px solid ;
+    border-color: black;
+
+}
+.mid {
+    margin: auto;
+    margin-top: 1rem;
+}
+/***/
+

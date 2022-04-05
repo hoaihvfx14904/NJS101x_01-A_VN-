@@ -1,0 +1,87 @@
+main {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display:grid;
+}
+main .btn__addNew {
+    flex-direction: initial;
+    grid-column-start: inherit;
+}
+
+.btn__addNew {
+    padding:5px;
+}
+.btn__addNew__btn1 {
+    width:100%;
+    font-size:20px;
+    text-decoration: none;
+    background-color:rgb(42, 196, 202);
+    border : 1px solid black;
+    border-radius: 2px;
+}
+.btn__addNew__btn {
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 5px;
+    width:100%;
+    font-size:20px;
+    text-decoration: none;
+    background-color:rgb(42, 196, 202);
+    border : 1px solid black;
+    border-radius: 2px;
+}
+.null {
+    height: 10px;
+}
+.btn__addNew__btn:hover {
+    letter-spacing:4px;
+    transition:0.3s ease-in-out;
+    color:purple;
+    background-color:rgb(0, 183, 255);
+}
+
+.addNew__container {
+    display:grid;
+    border: 1px solid;
+    height: 800px;
+    width:480px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius:20px;
+}
+
+.addNew__container img {
+    width:450px;
+    height:350px;
+    border-radius:20px;
+}
+
+
+
+.btnEditEmployee{
+    padding:5px 15px;
+    color: white;
+    background-color: rgb(226, 42, 73);
+    border-radius:10px;
+    letter-spacing:2px
+}
+.btnEditEmployee:hover {
+    padding:5px 25px;
+    letter-spacing: 7px;
+    transition:0.3s ease-in-out;
+}
+.form-css {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    width: 25.2rem;
+    border: 1px solid ;
+    border-color: black;
+
+}
+.mid {
+    margin: auto;
+    margin-top: 1rem;
+}
